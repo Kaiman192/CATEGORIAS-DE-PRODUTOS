@@ -1,0 +1,34 @@
+# Classificação de Texto com Naive Bayes
+
+## Descrição
+
+Este projeto realiza a classificação de textos usando um modelo Naive Bayes Multinomial. Os dados fictícios consistem em textos curtos de avaliações de clientes categorizadas como relacionadas a "Produto" ou "Serviço". O objetivo é treinar um modelo capaz de prever a categoria de novos textos e identificar as palavras mais importantes para cada categoria.
+
+## Funcionalidades
+
+- **Classificação de Texto**: Classificação de avaliações de clientes em categorias como "Produto" ou "Serviço".
+- **Matriz de Confusão**: Visualização da matriz de confusão para avaliar o desempenho do modelo.
+- **Relatório de Classificação**: Exibição de métricas de avaliação como precisão, recall e F1-score.
+- **Análise de Palavras Mais Importantes**: Identificação das palavras mais relevantes para cada categoria com base nas probabilidades geradas pelo modelo.
+
+## Estrutura do Projeto
+
+
+## Dependências
+
+As seguintes bibliotecas Python são utilizadas neste projeto:
+- `pandas`
+- `numpy`
+- `matplotlib`
+- `seaborn`
+- `scikit-learn`
+
+Para instalar as dependências, execute:
+
+```bash
+pip install -r requirements.txt
+
+COMO EXECUTAR
+git clone https://github.com/usuario/classificacao-texto-naive-bayes.git
+cd classificacao-texto-naive-bayes
+python src/classificacao_texto.py
